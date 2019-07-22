@@ -84,9 +84,9 @@
     <link href="https://blog.myremote.gq/20180522/%E4%BD%BF%E7%94%A8Navicat%20Premium%E8%BF%9E%E6%8E%A5MySQL%E5%9C%A8%E6%A0%B9%E7%9B%AE%E5%BD%95%E4%B8%8B%E4%BA%A7%E7%94%9F%E8%BF%9E%E6%8E%A5%E5%90%8D%E7%9B%AE%E5%BD%95%E5%8F%8Aid_cache.db%E3%80%81id_cache.db-shm%E3%80%81id_cache.db-wal%E4%B8%89%E4%B8%AA%E6%96%87%E4%BB%B6%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>https://blog.myremote.gq/20180522/使用Navicat Premium连接MySQL在根目录下产生连接名目录及id_cache.db、id_cache.db-shm、id_cache.db-wal三个文件的问题/</id>
     <published>2018-05-22T02:10:26.000Z</published>
-    <updated>2019-07-22T11:57:53.932Z</updated>
+    <updated>2019-07-22T12:32:58.222Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h1><p>&emsp;&emsp;使用Navicat Premium连接MySQL会产生id_cache.db、id_cache.db-shm、id_cache.db-wal三个文件在根目录下。</p><h1 id="原因："><a href="#原因：" class="headerlink" title="原因："></a>原因：</h1><p>&emsp;&emsp;新建连接时，未对连接的设置位置进行设置。</p><h1 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h1><p>&emsp;&emsp;在 设置位置 处 设置 设置位置目录。<br>&emsp;&emsp;设置位置：选中连接-&gt;右键 编辑连接-&gt;选择 高级 选项-&gt;设置位置。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/images/2015/05/22/fdb21c90-ac6a-11e9-8335-991b0bc95367.gif" alt title>                </div>                <div class="image-caption"></div>            </figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h1><p>&emsp;&emsp;使用Navicat Premium连接MySQL会产生id_cache.db、id_cache.db-shm、id_cache.db-wal三个文件在根目录下。</p><h1 id="原因："><a href="#原因：" class="headerlink" title="原因："></a>原因：</h1><p>&emsp;&emsp;新建连接时，未对连接的设置位置进行设置。</p><h1 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h1><p>&emsp;&emsp;在 设置位置 处 设置 设置位置目录。<br>&emsp;&emsp;设置位置：选中连接-&gt;右键 编辑连接-&gt;选择 高级 选项-&gt;设置位置。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/images/2018/05/22/fdb21c90-ac6a-11e9-8335-991b0bc95367.gif" alt title>                </div>                <div class="image-caption"></div>            </figure>]]></content>
     
     <summary type="html">
     
